@@ -1,0 +1,12 @@
+name: Docker Image CI
+on:
+  push:
+    branches:
+    - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Build the Docker image
+    - uses: actions/docker/cli@master
+      args: build -t robertd/alpine-terraform .
