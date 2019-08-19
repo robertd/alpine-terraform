@@ -2,7 +2,7 @@ FROM golang:alpine
 
 LABEL maintainer="robertd"
 
-ENV TERRAFORM_VERSION=0.12.5
+ENV TERRAFORM_VERSION=0.12.6
 
 RUN apk add --update git bash openssh
 
