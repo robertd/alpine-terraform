@@ -8,6 +8,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Build the Docker image
     - uses: actions/docker/cli@master
+    - name: Build the Docker image
       args: build -t robertd/alpine-terraform .
