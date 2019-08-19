@@ -13,3 +13,4 @@ jobs:
       run: |
         ls -la #docker build -f Dockerfile -t robertd/alpine-terraform .
         ls -la ../
+        ls -la ../../
