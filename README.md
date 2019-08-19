@@ -1,11 +1,5 @@
-# Minimal terraform docker image built on the top of Alpine Linux Docker Image
+# Minimal terraform docker image built on top of Alpine Linux Docker Image
 This is a great base image for running terraform in CI/CD environments.
-
-### Tags and Versions
-- [`0.12.6`](https://github.com/robertd/alpine-terraform/blob/master/0.12.6/Dockerfile)
-- [`0.12.4`](https://github.com/robertd/alpine-terraform/blob/master/0.12.5/Dockerfile)
-- [`0.12.4`](https://github.com/robertd/alpine-terraform/blob/master/0.12.4/Dockerfile)
-- [`0.12.3`](https://github.com/robertd/alpine-terraform/blob/master/0.12.3/Dockerfile)
 
 ### Supported Docker versions
 
