@@ -10,4 +10,6 @@ jobs:
     steps:
     - uses: actions/docker/cli@master
     - name: Build the Docker image
-      run: ls -la #docker build -f Dockerfile -t robertd/alpine-terraform .
+      run: |
+        ls -la #docker build -f Dockerfile -t robertd/alpine-terraform .
+        ls -la ../
