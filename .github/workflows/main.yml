@@ -10,4 +10,4 @@ jobs:
     steps:
     - uses: actions/docker/cli@master
     - name: Build the Docker image
-      args: build -t robertd/alpine-terraform .
+      run: build -t robertd/alpine-terraform .
